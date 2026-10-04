@@ -1,0 +1,119 @@
+/* Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5a67d8;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background: #667eea;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background: #eef1ff;
+}
+
+/* Action Buttons */
+.action a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.done {
+    background: #28a745;
+    color: white;
+}
+
+.delete {
+    background: #dc3545;
+    color: white;
+}
+
+.done:hover {
+    background: #218838;
+}
+
+.delete:hover {
+    background: #c82333;
+}
+
+/* Form */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
